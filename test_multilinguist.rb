@@ -7,7 +7,7 @@ class TestMultilinguist < MiniTest::Test
   def test_language_in_exists
 
     multilinguist = Multilinguist.new
-    result = multilinguist.language_in('China')
+    result = multilinguist.language_in('Australia')
 
     assert_equal(result, 'en')
   end
